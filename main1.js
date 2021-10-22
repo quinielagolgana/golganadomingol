@@ -231,7 +231,7 @@ function costoactual(){
         for (var i=0;i<5;i++){
              aux2*= res[i].length;
         }
-        document.getElementById("costo").innerHTML = "Costo: $" + aux2*5;
+        document.getElementById("costo").innerHTML = "Costo: $" + aux2*10;
         document.getElementById("numquinielas").innerHTML = aux2 + " Quiniela(s)"
     }
 }
