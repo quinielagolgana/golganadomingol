@@ -155,7 +155,7 @@ function updatedisplay(){
     else
         display.innerHTML += `<div>` +  res.join("\xa0\xa0") + "\xa0\xa0" + name + "*\xa0\xa0" + `</div>`;
 
-    document.getElementById("total").innerHTML = "Total: $" + quantity*5;
+    document.getElementById("total").innerHTML = "Total: $" + quantity*10;
 
     if (display.childElementCount > 0)
     display.lastElementChild.innerHTML += `<button id="undo" onclick="remove()"><ion-icon name="arrow-undo-outline"></ion-icon></button>`;
