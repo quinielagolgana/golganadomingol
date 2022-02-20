@@ -136,7 +136,7 @@ function clean(){
     let container = document.getElementById("text");
     container.innerHTML = res.join("\xa0\xa0");
     spans = document.querySelectorAll(".quiniela span");
-    for (var i=0; i<15;i++)
+    for (var i=0; i<18;i++)
         spans[i].style.backgroundColor = "";
     document.getElementById("costo").innerHTML = "Costo: $0";
     document.getElementById("numquinielas").innerHTML = "0 Quiniela(s)";
@@ -192,7 +192,7 @@ function allowcombination(){
 
 function calculate(){
     aux = 1;
-    for (var i=0;i<5;i++){
+    for (var i=0;i<6;i++){
         aux*= res[i].length;
     }
     quantity = localStorage.getItem("quantity");
